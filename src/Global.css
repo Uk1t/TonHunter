@@ -1,0 +1,38 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: #efae58;
+    text-shadow: 4px 1px 7px black;
+    -webkit-text-stroke: 1px #9a430466;
+    text-stroke: 1px #9a430466;
+    letter-spacing: 3px;
+}
+
+a {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #efae58;
+    text-shadow: 4px 1px 7px black;
+    -webkit-text-stroke: 1px #9a430466;
+    text-stroke: 1px #9a430466;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: 500ms;
+
+
+}
+
+a:hover {
+    transform: scale(1.1);
+
+}

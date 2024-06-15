@@ -1,0 +1,55 @@
+.wrapper {
+    background-image: url(/public/img/page1/obj/scroll\ 1.png);
+    background-position: 40px 100px;
+    background-size: 345px 130px;
+    background-repeat: no-repeat;
+    height: 230px;
+
+
+}
+
+.header {
+
+
+    display: flex;
+
+    padding-bottom: 15px;
+
+    height: 130px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+
+
+}
+
+.user__name {
+    letter-spacing: 5px;
+    font-size: 28px;
+    margin: 5px 16px;
+
+}
+
+.btn {
+    display: block;
+    height: 70px;
+    width: 70px;
+    border: none;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+}
+
+.header_leftBtn {
+
+
+    background-image: url(/public/img/page1/obj/but\ 7.png);
+
+}
+
+.header_rightBtn {
+    background-image: url(/public/img/page1/obj/but\ 6.png);
+}

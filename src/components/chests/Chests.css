@@ -1,0 +1,32 @@
+.chests-main {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    width: 50%;
+
+}
+
+.chest__item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chest__image {
+    height: 40px;
+    width: 40px;
+}
+
+.chest__number {
+    position: relative;
+    font-size: 22px;
+
+}
+
+.chest__x {
+    margin-bottom: -7px;
+    margin-top: -7px;
+    font-size: 14px;
+
+}

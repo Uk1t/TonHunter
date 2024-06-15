@@ -1,0 +1,79 @@
+.field {
+
+    width: 100%;
+    height: 419px;
+    margin-top: 10px;
+    box-shadow: inset 1px 1px 15px 6px black;
+
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+
+    transition: 1s;
+
+}
+
+.main__field {
+    background-image: url(/public/img/page1/map/map\ main\ 1.png);
+
+
+}
+
+.second__field {
+    background-image: url(/public/img/page2/loc/loca1.png);
+
+}
+
+.field-cross {
+    appearance: none;
+    transition: 500ms;
+    position: relative;
+}
+
+.field-cross::before {
+
+    content: "";
+    display: block;
+    background-image: url(/public/img/Cross.png);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+
+
+}
+
+.field-cross:checked {
+    transform: scale(1.4);
+}
+
+.cross1 {
+    top: 200px;
+    left: 175px;
+    /* море */
+}
+
+.cross2 {
+    top: 309px;
+    left: 40px;
+    /* лес */
+}
+
+.cross3 {
+    top: 111px;
+    left: 43px;
+    /* пещера */
+}
+
+.cross4 {
+    top: 320px;
+    left: 150px;
+    filter: grayscale(2);
+}
+
+.cross5 {
+    top: 56px;
+    left: 75px;
+    filter: grayscale(2);
+}
