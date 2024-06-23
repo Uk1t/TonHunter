@@ -14,6 +14,7 @@ function App() {
 
   return (
     <>
+      <div className='wrap'></div>
       <Header />
 
 
@@ -29,8 +30,8 @@ function App() {
 
     </>
   );
- 
-} 
+
+}
 
 
 

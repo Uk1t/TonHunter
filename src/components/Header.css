@@ -26,6 +26,15 @@
 
 }
 
+@media (max-width: 380px) {
+    .wrapper {
+        background-size: 0px 0px;
+        height: 75px;
+
+    }
+
+}
+
 .user__name {
     letter-spacing: 5px;
     font-size: 28px;

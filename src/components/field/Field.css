@@ -22,8 +22,13 @@
 }
 
 .second__field {
+
     background-image: url(/public/img/page2/loc/loca1.png);
 
+}
+
+.none_field {
+    opacity: 0.1;
 }
 
 .field-cross {

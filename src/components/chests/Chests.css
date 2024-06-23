@@ -7,6 +7,14 @@
 
 }
 
+@media (max-width: 380px) {
+    .chests-main {
+        display: none;
+
+    }
+
+}
+
 .chest__item {
     display: flex;
     flex-direction: column;

@@ -6,12 +6,10 @@
 .rolegame__item {
     width: 250px;
     height: 100px;
-
     border: none;
     margin: 5px;
     margin-top: 10px;
     border-radius: 15px;
-    ;
     background-position: 25px -50px, center;
     background-size: 140px 130px, 190px 130px;
     background-repeat: no-repeat;
@@ -21,7 +19,9 @@
 
 }
 
-.rolegame__item:checked {
+
+.rg2:checked,
+.rg1:checked {
     box-shadow: none;
     background-size: 157px 147px, 190px 130px;
     background-position: 15px -60px, center;
@@ -30,9 +30,10 @@
 
 
 .rg1 {
+
     background-image: url(/public/img/page2/obj/hands.png), url(/public/img/page2/obj/buthands2.png );
 }
 
 .rg2 {
-    background-image: url(/public/img/page2/obj/shovel.png), url(/public/img/page2/obj/buthands2.png );
+    background-image: url(/public/img/page2/obj/shovel1.png), url(/public/img/page2/obj/buthands2.png );
 }

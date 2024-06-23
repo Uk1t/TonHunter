@@ -2,7 +2,12 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    max-width: 28em;
 
+}
+
+@media (max-width: 390px) {
+    
 }
 
 body {
@@ -35,4 +40,59 @@ a {
 a:hover {
     transform: scale(1.1);
 
+}
+
+.play {
+    position: absolute;
+    top: 427px;
+    left: 224px;
+    height: 150px;
+    width: 150px;
+
+    border-radius: 15%;
+    backdrop-filter: blur(2px);
+    animation: anim 3s linear infinite;
+    background-image: url(/public/img/Cross.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 4px solid #efae58;
+}
+
+.anim {
+
+    position: absolute;
+    z-index: 3;
+    top: 115px;
+    left: -26px;
+}
+
+.animNOt {
+    display: none;
+}
+
+
+
+
+
+
+
+
+@keyframes anim {
+    0% {
+        transform: scale(1);
+
+
+    }
+
+    50% {
+        transform: scale(1.2);
+
+    }
+
+
+    100% {
+        transform: scale(1);
+
+
+    }
 }

@@ -22,8 +22,8 @@ export function Field() {
             <input type='Radio' name='input' className='field-cross cross1 ' ></input>
             <input type='Radio' name='input' className='field-cross cross2 '  ></input>
             <input type='Radio' name='input' className='field-cross cross3 '  ></input>
-            <input type='Radio' name='input' className='field-cross cross4 '  ></input>
-            <input type='Radio' name='input' className='field-cross cross5 '  ></input>
+            <input type='Radio' name='input' className='field-cross cross4 ' disabled  ></input>
+            <input type='Radio' name='input' className='field-cross cross5 ' disabled ></input>
 
 
 
