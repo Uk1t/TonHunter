@@ -6,9 +6,7 @@
 
 }
 
-@media (max-width: 390px) {
-    
-}
+@media (max-width: 390px) {}
 
 body {
     font-family: "Luckiest Guy", cursive;
@@ -43,9 +41,9 @@ a:hover {
 }
 
 .play {
-    position: absolute;
-    top: 427px;
-    left: 224px;
+    position: relative;
+    top: 227px;
+    left: 124px;
     height: 150px;
     width: 150px;
 
